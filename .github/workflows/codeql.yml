@@ -22,10 +22,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Setup .NET Core SDK
-      uses: actions/setup-dotnet@v2
-      with:
-        dotnet-version: '5.0'
+    #- name: Setup .NET Core SDK
+    #  uses: actions/setup-dotnet@v2
+    #  with:
+    #    dotnet-version: '5.0'
 
     # Initializes the CodeQL tools for scanning.
     #- name: Initialize CodeQL
